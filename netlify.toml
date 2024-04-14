@@ -1,0 +1,10 @@
+[build]
+  base = ""  # Specify the base directory if different from default
+  publish = "static/"
+  functions = ""
+
+[build.environment]
+  PYTHON_VERSION = "3.8"  # Specify the Python version if needed
+
+[dev]
+  command = "flask run"  # Command to run during local development
